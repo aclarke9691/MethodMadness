@@ -8,5 +8,8 @@ public class TestFile {
         System.out.println(AClarkeLIB.cutOut("hospital", "spit"));
         System.out.println(AClarkeLIB.cutOut("valid", "l"));
         System.out.println(AClarkeLIB.cutOut("ok","boy"));
+        System.out.println(AClarkeLIB.sumUpTo(4));
+        System.out.println(AClarkeLIB.sumUpTo(2378));
+        System.out.println(AClarkeLIB.sumUpTo(-4));
     }
 }
