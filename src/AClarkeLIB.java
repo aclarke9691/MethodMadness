@@ -47,5 +47,13 @@ public class AClarkeLIB {
         return sum;
     }
 
-    public static
+    public static String primePrinter(int n)
+    {
+        String numbers= "";
+        while (n>=0)
+        {
+            for (int i=1,  )
+            n= n-1;
+        }
+    }
 }
