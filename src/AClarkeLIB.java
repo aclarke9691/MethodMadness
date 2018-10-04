@@ -18,5 +18,22 @@ public class AClarkeLIB {
 
     }
 
-    public static boolean
+    public static String cutOut(String mainStr, String subStr)
+    {
+        String result = "";
+        if (mainStr.indexOf(subStr) == -1)
+        {
+            result = mainStr;
+            return result;
+        }
+        else
+        {
+            int i= mainStr.indexOf(subStr);
+            result = mainStr.substring(0,i );
+            result= result + mainStr.substring(i+subStr.length(), mainStr.length());
+            return result;
+        }
+    }
+
+    public static
 }

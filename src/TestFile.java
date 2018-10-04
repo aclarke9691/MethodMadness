@@ -5,5 +5,8 @@ public class TestFile {
         System.out.println(AClarkeLIB.isPalindrome("patty"));
         System.out.println(AClarkeLIB.isPalindrome("step on no pets"));
         System.out.println(AClarkeLIB.isPalindrome("543345"));
+        System.out.println(AClarkeLIB.cutOut("hospital", "spit"));
+        System.out.println(AClarkeLIB.cutOut("valid", "l"));
+        System.out.println(AClarkeLIB.cutOut("ok","boy"));
     }
 }
