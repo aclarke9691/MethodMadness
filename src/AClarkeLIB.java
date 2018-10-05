@@ -49,11 +49,15 @@ public class AClarkeLIB {
 
     public static String primePrinter(int n)
     {
+        int i=1;
         String numbers= "";
-        while (n>=0)
+        for (int x=n; x>0; x-- )
         {
-            for (int i=1,  )
-            n= n-1;
+            if i
+
+
+
         }
+        //}
     }
 }
