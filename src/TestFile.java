@@ -11,5 +11,8 @@ public class TestFile {
         System.out.println(AClarkeLIB.sumUpTo(4));
         System.out.println(AClarkeLIB.sumUpTo(2378));
         System.out.println(AClarkeLIB.sumUpTo(-4));
+        AClarkeLIB.multiplicationTable(7, 3);
+        AClarkeLIB.multiplicationTable(-5,9);
+        AClarkeLIB.multiplicationTable(8,5);
     }
 }

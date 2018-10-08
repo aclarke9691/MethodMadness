@@ -47,17 +47,15 @@ public class AClarkeLIB {
         return sum;
     }
 
-    public static String primePrinter(int n)
+    public static void multiplicationTable(int base, int range)
     {
-        int i=1;
-        String numbers= "";
-        for (int x=n; x>0; x-- )
+        int x=0;
+        while (x<=range)
         {
-            if i
-
-
-
+            System.out.println(base + "* " + x + "= " + base * x);
+            x = x + 1;
         }
-        //}
     }
+
+    public static
 }
