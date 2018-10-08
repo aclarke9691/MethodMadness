@@ -57,5 +57,12 @@ public class AClarkeLIB {
         }
     }
 
-    public static
+    public static String dateStr(String datee)
+    {
+        String mm = datee.substring(0,2);
+        String dd = datee.substring(3,5);
+        String yy = datee.substring(6,10);
+        String newdate=  dd + "-" + mm + "-" + yy;
+        return newdate;
+    }
 }
