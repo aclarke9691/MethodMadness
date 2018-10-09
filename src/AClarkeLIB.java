@@ -35,11 +35,11 @@ public class AClarkeLIB {
         }
     }
 
-    public static int sumUpTo(int n)
+    public static int sumUpTo(int n) //This method takes a number n and adds up all the numbers in between 0 and n.
     {
         int i = 0;
         int sum= 0;
-        while (i<= n)
+        while (i<= n) //i starts at 0, is added to the sum and inccreases by one each time until it reaches n.
         {
             sum= sum+i;
             i= i+1;
@@ -47,22 +47,22 @@ public class AClarkeLIB {
         return sum;
     }
 
-    public static void multiplicationTable(int base, int range)
+    public static void multiplicationTable(int base, int range) //This method takes a number base and multiplies it by every number starting from zero up until number range.
     {
         int x=0;
-        while (x<=range)
+        while (x<=range) //The base is multiplied by numbers from 0-range one by one.
         {
             System.out.println(base + "* " + x + "= " + base * x);
             x = x + 1;
         }
     }
 
-    public static String dateStr(String datee)
+    public static String dateStr(String datee) //This method converts a given date datee from mm/dd/yyyy form to dd-mm-yyyy form.
     {
-        String mm = datee.substring(0,2);
-        String dd = datee.substring(3,5);
-        String yy = datee.substring(6,10);
-        String newdate=  dd + "-" + mm + "-" + yy;
+        String mm = datee.substring(0,2); //Establishes the first two numbers of datee as the month.
+        String dd = datee.substring(3,5); //Establishes the third and fourth numbers of datee as the day.
+        String yy = datee.substring(6,10); //Establishes the last four numbers of datee as the year.
+        String newdate=  dd + "-" + mm + "-" + yy; //Rearranges the date.
         return newdate;
     }
 }
